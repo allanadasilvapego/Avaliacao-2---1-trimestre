@@ -1,4 +1,4 @@
-
+  
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
@@ -80,12 +80,12 @@ body {
     border-radius: 0 0 40px 40px;
 }
 
-.botao.ativo{
+.botao .ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
 
-.aba-conteudo.ativo{
+.aba-conteudo .ativo{
     display: block;
 }
 
