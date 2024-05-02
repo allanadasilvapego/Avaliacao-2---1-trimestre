@@ -8,3 +8,13 @@ for(let i=0; i<botoes.length; i++){
         botoes[i].classList.add("ativo");
     }
 }
+const botoes = document.querySelectorAll(".aba-conteudo");
+
+for(let i=0; i<abas-textos.length; i++){
+    abas-textos[i].onclick = function(){
+        for(j=0; j<abas-textos.length;j++){
+            abas-textos[j].classList.remove("ativo");
+        }
+        abas-textos[i].classList.add("ativo");
+    }
+}
