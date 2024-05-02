@@ -85,7 +85,7 @@ body {
     border-radius: 0 0 40px 40px;
 }
 
-.botao.ativo {
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
