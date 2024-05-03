@@ -93,7 +93,9 @@ body {
     display: block;
 }
 
-
+.aba-conteudo .ativo{
+    display: none;
+}
 
 .aba-conteudo-titulo-principal{
     font-size: 28px;
